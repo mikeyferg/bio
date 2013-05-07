@@ -1,0 +1,133 @@
+/* 
+
+Project Name: Cookie Monster 
+Client: Cookie Monster
+Author: Chris Castiglione | www.twitter.com/castig 
+Developed @ General Assembly in NYC
+
+*/
+
+body {
+	/* set up a background image */
+	background: url('../images/5-scene.jpg')no-repeat;
+	
+	/* the follow is the code to have the image display as a full page */
+	background-position: center;
+	background-attachment: fixed;
+	-webkit-background-size: cover; /* the next 3 lines are "browser prefixes", they are necessary to include for CSS3 techniques */
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+h1{
+	font-size: 85px;
+	padding: 0px;
+	margin: 0px;
+	line-height:99%;
+}
+
+h2{
+	background:#0000FF;
+	color: #000;
+	padding: 5px;
+	font-size: 17px;
+	font-weight: bold;
+
+	-webkit-border-bottom-right-radius: 5px;
+	-moz-border-bottom-right-radius: 5px;
+	-o-border-bottom-right-radius: 5px;
+	border-bottom-right-radius: 5px;
+
+	-webkit-border-top-right-radius: 5px;
+	-moz-border-top-right-radius: 5px;
+	-o-border-top-right-radius: 5px;
+	border-top-right-radius: 5px;
+
+	-webkit-border-bottom-left-radius: 5px;
+	-moz-border-bottom-left-radius: 5px;
+	-o-border-bottom-left-radius: 5px;
+	border-bottom-left-radius: 5px;
+
+	-webkit-border-top-left-radius: 5px;
+	-moz-border-top-left-radius: 5px;
+	-o-border-top-left-radius: 5px;
+	border-top-left-radius: 5px;
+}
+
+ul {
+	list-style-type: none;
+
+
+}
+a{
+	color: #35c0f3;
+}
+
+#container{
+	background: black;
+	width: 438px;
+	color: white;
+	padding: 10px 10px 8px 10px;
+	margin: 50px auto;
+
+	-webkit-border-bottom-right-radius: 25px;
+	-moz-border-bottom-right-radius: 25px;
+	-o-border-bottom-right-radius: 25px;
+	border-bottom-right-radius: 25px;
+
+	-webkit-border-top-right-radius: 25px;
+	-moz-border-top-right-radius: 25px;
+	-o-border-top-right-radius: 25px;
+	border-top-right-radius: 25px;
+
+	-webkit-border-bottom-left-radius: 25px;
+	-moz-border-bottom-left-radius: 25px;
+	-o-border-bottom-left-radius: 25px;
+	border-bottom-left-radius: 25px;
+
+	-webkit-border-top-left-radius: 25px;
+	-moz-border-top-left-radius: 25px;
+	-o-border-top-left-radius: 25px;
+	border-top-left-radius: 25px;
+}
+
+#socialmedia {
+	text-align:center;
+	width:100%;
+
+}
+
+#socialmedia img {
+	display:inline-block;
+
+	-webkit-border-bottom-right-radius: 25px;
+	-moz-border-bottom-right-radius: 25px;
+	-o-border-bottom-right-radius: 25px;
+	border-bottom-right-radius: 25px;
+
+	-webkit-border-top-right-radius: 25px;
+	-moz-border-top-right-radius: 25px;
+	-o-border-top-right-radius: 25px;
+	border-top-right-radius: 25px;
+
+	-webkit-border-bottom-left-radius: 25px;
+	-moz-border-bottom-left-radius: 25px;
+	-o-border-bottom-left-radius: 25px;
+	border-bottom-left-radius: 25px;
+
+	-webkit-border-top-left-radius: 25px;
+	-moz-border-top-left-radius: 25px;
+	-o-border-top-left-radius: 25px;
+	border-top-left-radius: 25px;
+}
+
+#socialmedia a {
+	padding:15px;
+}
+
+p {
+	font-size: 16px;
+	font-weight: bold;
+	line-height:18px;
+}
